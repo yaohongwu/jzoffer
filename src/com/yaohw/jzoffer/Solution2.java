@@ -29,7 +29,6 @@ public class Solution2 {
             }
             i++;
         }
-
         return buffer.toString();
     }
 
