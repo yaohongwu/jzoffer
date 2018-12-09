@@ -40,7 +40,6 @@ public class Solution1 {
     }
 
     public static void main(String[] args) {
-
         int[][] a = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
