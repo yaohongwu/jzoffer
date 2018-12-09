@@ -27,7 +27,6 @@ public class Solution3 {
 
         ArrayList<Integer> arrayList = printListFromTailToHead1(listNode1);
         System.out.println(arrayList);
-
     }
 
     /**
@@ -74,7 +73,6 @@ public class Solution3 {
 class ListNode {
     int val;
     ListNode next = null;
-
     ListNode(int val) {
         this.val = val;
     }
