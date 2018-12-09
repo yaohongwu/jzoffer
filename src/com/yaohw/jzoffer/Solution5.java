@@ -21,7 +21,6 @@ public class Solution5 {
         for (int i = 0; i < 10; i++) {
             push(i);
         }
-
         for (int i = 0; i < 10; i++) {
             System.out.println(pop());
         }
