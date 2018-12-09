@@ -10,6 +10,12 @@ package com.yaohw.jzoffer;
  */
 public class Solution2 {
 
+    /**
+     * 替换空格
+     *
+     * @param str 目标字符串
+     * @return
+     */
     public static String replaceSpace(StringBuffer str) {
 
         StringBuffer buffer = new StringBuffer();

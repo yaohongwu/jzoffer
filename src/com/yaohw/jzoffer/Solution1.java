@@ -10,6 +10,13 @@ package com.yaohw.jzoffer;
  * 解决思路：从左下角开始找，当左下角的数小于target时，向上一行找。当左下角的数大于target时，向右找。
  */
 public class Solution1 {
+    /**
+     * 二维数组中的查找
+     *
+     * @param target 目标值
+     * @param array  目标数组
+     * @return
+     */
     public static boolean Find(int target, int[][] array) {
 
         int rows = array.length;            // 行数
